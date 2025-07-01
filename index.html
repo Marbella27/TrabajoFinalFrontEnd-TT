@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fuentes de Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
+
+    <!-- Iconos de Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Mis estilos -->
+    <link rel="stylesheet" href="styles.css">
+    <title>Mi proyecto final</title>
+
+</head>
+
+<body>
+    <Header id="Inicio">
+        <div class="logonav">
+            <img src="logo.jpeg" alt=" Logo del proyecto Sublima con todo" width="300" height="200">
+            <nav>
+                <ul>
+                    <li><a href=""> <i class="fa-solid fa-house"></i> Inicio<a>
+                    <li>
+                    <li><a href="">Nosotros</a></li>
+                    <li><a href=""> <i class="fa-solid fa-bag-shopping"></i> Productos</a></li>
+                    <li><a href="">Contacto</a></li>
+                    <li><a href=""> <i class="fa-solid fa-pen-to-square"></i> Reseñas</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div>
+            <div class="titulo">
+                <h1 id="h1titulo"> Sublimamos todas tus ideas</h1>
+                <h2 id="h2subtitulo"> Que tu imaginación no tenga limites y tus regalos seas originales. Haz volar tu
+                    imaginación con nosotros.</h2>
+            </div>
+        </div>
+        <div class="mediaVideo">
+            <video class="media" controls width="70%" muted>
+                <source src="video/video sublimacion.mp4" type="video/mp4">
+            </video>
+        </div>
+    </Header>
+
+    <main>
+
+        <section id="productos">
+            <h2 class="textovioleta"><i class="fa-solid fa-bag-shopping"></i> Productos</h2>
+
+            <div id="contenedorProductos">
+                <div class="divProductos">
+                    <img src="img/almohada 2.jpg" alt=" almohada" width="300" height="200">
+                    <h3>Almohadas con mensajes</h3>
+                    <span>$15.000</span>
+                </div>
+                <div class="divProductos">
+                    <img src="img/bolso.jpg" alt=" bolso" width="300" height="200">
+                    <h3>Bolsas con Logo</h3>
+                    <span>$8.000</span>
+                </div>
+                <div class="divProductos">
+                    <img src="img/gorras.avif" alt=" gorras" width="300" height="200">
+                    <h3>Gorras con nombres </h3>
+                    <span>$12.000</span>
+                </div>
+                <div class="divProductos">
+                    <img src="img/cartuchera.webp" alt=" cartuchera" width="300" height="200">
+                    <h3>Cartucheras con personajes</h3>
+                    <span>$8.000</span>
+                </div>
+                <div class="divProductos">
+                    <img src="img/puzzle-de-madera-96-piezas-250x360-mm.jpg" alt=" puzzle" width="300" height="200">
+                    <h3>Rompecabezas de Madera</h3>
+                    <span>$15.000</span>
+                </div>
+                <div class="divProductos">
+                    <img src="img/taza mickey.jpg" alt=" almohada" width="300" height="200">
+                    <h3>Tazas enamorados</h3>
+                    <span>$10.000</span>
+                </div>
+                <div class="divProductos">
+                    <img src="img/TAZAS-Y-TARROS-SUBLIMABLES-2-1536x1260.jpg" alt=" tazas" width="300" height="200">
+                    <h3>Tazas</h3>
+                    <span>$12.000</span>
+                </div>
+                <div class="divProductos">
+                    <img src="img/Remera-sublimar-niños.jpg" alt=" remera" width="300" height="200">
+                    <h3>Remera con fotos</h3>
+                    <span>$15.000</span>
+                </div>
+                <div class="divProductos">
+                    <img src="img/puzzle-de-madera-corazon-170x170x317mm-23-piezas-a4-4745 (1).jpg"
+                        alt=" puzzle madera corazon" width="300" height="200">
+                    <h3>Rompecabezas de corazón</h3>
+                    <span>$14.000</span>
+                </div>
+                <div class="divProductos">
+                    <img src="img/cuadernos1.webp" alt="cuadernos1" width="300" height="200">
+                    <h3>Block de notas</h3>
+                    <span>$5.000</span>
+                </div>
+                <div class="divProductos">
+                    <img src="img/cuadernos.jpeg" alt=" cuadernos2" width="300" height="200">
+                    <h3>Libreta/ planificadores</h3>
+                    <span>$9.000</span>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="formas-de-pago-contacto">
+            <section id="carrito">
+                <h2 class="textovioleta"><i class="fa-solid fa-cart-shopping"></i> Carrito de Compras</h2>
+                <label for="Nombre">Total de productos: $</label>
+                <input type="number" name="productos" id="productos">
+            </section>
+
+            <section id="pagos">
+                <div class="divPagos">
+                    <h2 class="textovioleta"><i class="fa-solid fa-credit-card"></i> Formas de Pago</h2>
+                    <ul>
+                        <li>Modo</li>
+                        <li>Mercado pago</li>
+                        <li>Transferencia Bancaria</li>
+                    </ul>
+                </div>
+            </section>
+
+            <div>
+                <h2 class="textovioleta"> <i class="fa-solid fa-money-bill-wave"></i> Pago en Efectivo</h2>
+                <ol>
+                    <li> Completa el formulario con tus datos- Descagar formulario</li>
+                    <li> Realiza el pago en el Rapipago más cercano</li>
+                    <li> Enviar formulario y el Ticket de pago a nuestro mail</li>
+                </ol>
+            </div>
+        </section>
+
+        <section class="formas-de-pago-contacto">
+            <div class="divContacto">
+                <h2 class="textovioleta"> Contacto</h2>
+
+                <form class="formContacto" action="https://formspree.io/f/xeognynr" method="POST">
+                    <div>
+                        <label for="Nombre">Nombre:</label>
+                        <input type="text" name=" Nombre" id="nombre" placeholder=" Nombre">
+                    </div>
+                    <div>
+                        <label for="Apellido">Apellido:</label>
+                        <input type="text" name=" Apellido" id="Apellido" placeholder="Apellido">
+                    </div>
+                    <div>
+                        <label for="email">Correo Electrónico:</label>
+                        <input type="email" name="email" requerido id="email" placeholder="Su correo Electrónico">
+                    </div>
+                    <div>
+                        <label for="">Consulta:</label>
+                        <textarea name="Consulta" id="Consulta" rows="4" cols="50"
+                            placeholder="Escribe tu consulta"></textarea>
+                    </div>
+                    <button type="submit">Enviar</button>
+                </form>
+                <h2 class="textovioleta"> Visitanos</h2>
+
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.3636322961665!2d-58.44608575944195!3d-34.569664473079065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5c6da5aead1%3A0xcaf1ffc5f6699516!2sOlleros%202339%2C%20C1426BBF%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires%2C%20Argentina!5e0!3m2!1ses!2sus!4v1747288730904!5m2!1ses!2sus"
+                    style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                    width="450" height="600">
+                </iframe>
+            </div>
+        </section>
+    </main>
+
+    |<section id="opiniones">
+        <h2 class="textovioleta"> <i class="fa-solid fa-pen-to-square"></i> Reseñas</h2>
+        <div class="opiniones">
+
+            <div class="cards">
+                    <img src="img/foto mujer.webp" alt="">
+                <div class="card-content">
+                    <span class="card-nombre"> Solangel Monterrey</span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i><br>
+                    <span class="card-fecha">20/05/2025</span>  
+                </div>
+                <p>Excelente atención, muy responsables.</p>
+            </div>
+
+                <div class="cards">
+                <img src="img/mujer2.jpeg" alt="">
+                <div class="card-content">
+                    <span class="card-nombre"> Yajaira Villanueva</span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i><br>
+                    <span class="card-fecha">22/05/2025</span> 
+                </div>
+                <p>Mi taza quedo con colores vibrantes y original</p>
+            </div>
+
+            <div class="cards">
+                <img src="img/hombre1.webp" alt="">
+                <div class="card-content">
+                    <span class="card-nombre"> Victor Mendez</span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i><br>
+                    <span class="card-fecha">22/05/2025</span> 
+                </div>
+                <p>Mis regalos fueron entregado en tiempo y forma, 100% recomendados</p>
+            </div>
+
+            <div class="cards">
+                <img src="img/hombre2.webp" alt="">
+                <div class="card-content">
+                    <span class="card-nombre"> Luis Mendoza</span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i><br>
+                    <span class="card-fecha">23/05/2025</span> 
+                </div>
+                <p>Mi famila quedo sorprendida. Muy creativos</p>
+            </div>
+
+                <div class="cards">
+                <img src="img/hombre3.webp" alt="">
+                <div class="card-content">
+                    <span class="card-nombre"> José Luis Mata</span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i><br>
+                    <span class="card-fecha">24/05/2025</span> 
+                </div>
+                <p>El romprecabezas de excelente calidad</p>
+            </div>
+
+            <div class="cards">
+                <img src="img/mujer3.jpeg" alt="">
+                <div class="card-content">
+                    <span class="card-nombre"> Marina Olavarria</span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i><br>
+                    <span class="card-fecha">25/05/2025</span> 
+                </div>
+                <p>Me encantan sus productos, gran variedad de productos</p>
+            </div>
+
+        </div>
+
+    </section>
+
+</body>
+
+<footer>
+
+    <nav id="footerNav">
+        <ul>
+            <li><a href="">Inicio</a></li>
+            <li><a href="">Nosotros</a></li>
+            <li><a href="">Productos</a></li>
+            <li><a href="">Contacto</a></li>
+            <li><a href=""> Reseñas</a></li>
+        </ul>
+    </nav>
+
+    <div class="footer-redes-nav">
+    <h3 class="footer-redes-nav">Seguinos en nuestras redes</h3>
+    <ul>
+        <a href="https://www.instagram.com/" target="blank">
+            <li><i class="fa-brands fa-square-instagram"></i> Instagram</li>
+        </a>
+
+
+        <a href="https://www.tiktok.com/es/" target="blank">
+            <li><i class="fa-brands fa-tiktok"></i> Tiktok</li>
+        </a>
+
+
+        <a href="https://www.facebook.com/" target="blank">
+            <li><i class="fa-brands fa-square-facebook"></i> Facebook</li>
+        </a>
+
+
+        <a href="https://www.x.com/" target="blank">
+            <li> <i class="fa-brands fa-x-twitter"></i> Twitter</li>
+        </a>
+
+
+        <a href="https://www.whatsapp.com/" target="blank">
+            <li> <i class="fa-brands fa-whatsapp"></i> Whatsapp</li>
+        </a>
+
+
+        <a href="https://www.telegram.org/" target="blank">
+            <li><i class="fa-brands fa-telegram"></i> Telegram</li>
+        </a>
+
+    </ul>
+    </div>
+</footer>

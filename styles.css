@@ -1,0 +1,210 @@
+
+html {
+    font-size: 16px;
+    background-color: rgb(185, 159, 215);
+}
+body {
+    font-family:"prata", serif;
+}
+
+/*header*/
+header {
+    background-color: rgb(72, 16, 76);
+    width: 100%;
+}
+
+
+h1{
+    color: rgb(192, 195, 31);
+    font-size: 3rem;
+}
+header nav {
+    width: 100%;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+ }
+
+.titulo {
+    width: 100%;
+    display: block;
+    gap: 50px;
+    background-color: white;
+}
+
+#h1titulo {
+    display: flex;
+    justify-content: center; 
+}
+
+#h2subtitulo {
+    display: flex;
+    justify-content: center; 
+    font-size:xx-large;
+}
+
+
+header ul {
+    gap: 50px; 
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    font-size:xx-large;
+    
+
+}
+
+header a {
+        text-decoration: none;
+        color: rgb(222, 219, 2);
+    }
+
+
+.logonav {
+    display: flex;
+    margin-bottom: 2rem;
+    align-items: center;
+}
+
+.textovioleta {
+    color: blueviolet;
+    font-size: 2rem;
+}
+
+
+header img {
+    height: 200px;
+    width: 300px;
+    display: flex;
+    margin: 2rem
+    
+
+}
+
+label { color: black;
+    font-size: 2 rem;}
+
+video {
+width: 80%;   
+ padding: 20px;}
+
+ .mediaVideo {
+display: flex;
+justify-content: center;
+margin: auto;
+ }
+.media {
+    padding-top: 0;
+}
+body {
+    margin:0;
+}
+main {
+    background-color: rgb(243, 171, 184);
+    padding: 1rem;
+    margin: auto;
+    border: 2px;
+    width: 80%;
+}
+
+.formContacto {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(165, 121, 206);
+    width: 40rem;
+    margin: auto;
+    height: 20rem;
+    justify-content:center;
+    padding: 2rem;
+    align-items: center;
+    gap: 2rem;
+   }
+#contenedorProductos {
+    width: 12 rem;
+    padding: 2rem;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content:center  
+    
+
+}
+
+.divProductos {
+    display: grid;
+    color: white;
+    padding: 1rem;
+    margin-top: 0;
+    border-radius: 10px;
+    background-color: blueviolet;
+    border: 1px solid ; 
+    
+}
+
+
+section img {
+    width: 300px;
+    height: 300px;
+}
+
+.formas-de-pago-contacto{
+display: flex;
+line-height: 2rem;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+   iframe {
+        width: 100%;
+    }
+
+/*reseñas*/
+    .opiniones {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 1rem;
+        place-items: center;
+      
+    }
+
+    .cards {
+        background-color: rgba(84, 41, 193, 0.646);
+        border-radius: 10px;
+        color:white ;
+        width: 19rem;
+
+    }
+
+/* footer*/
+    footer {
+    background-color: black;
+    color: white;
+    margin: auto;
+    padding: 2rem 4 rem;
+    
+}
+
+    footer a {
+        text-decoration: none;
+        color: white;
+        margin: auto;
+    }
+
+    #footerNav ul {
+        list-style:none;
+        display: inline-flex;
+        justify-content: space-between;
+        gap: 50px;
+        flex-wrap: wrap;
+    }
+
+    .footer-redes-nav h3, .footer-redes-nav ul 
+    {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: auto;
+    padding-left: 20px;
+}
