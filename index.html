@@ -22,17 +22,15 @@
 </head>
 
 <body>
-    <Header id="Inicio">
+    <Header id="inicio">
         <div class="logonav">
-            <img src="logo.jpeg" alt=" Logo del proyecto Sublima con todo" width="300" height="200">
+            <img class="logo" src="logo.jpeg" alt=" Logo del proyecto Sublima con todo" width="400" height="300">
             <nav>
                 <ul>
-                    <li><a href=""> <i class="fa-solid fa-house"></i> Inicio<a>
-                    <li>
-                    <li><a href="">Nosotros</a></li>
-                    <li><a href=""> <i class="fa-solid fa-bag-shopping"></i> Productos</a></li>
-                    <li><a href="">Contacto</a></li>
-                    <li><a href=""> <i class="fa-solid fa-pen-to-square"></i> Reseñas</a></li>
+                    <li><a href="#inicio"><i class="fa-solid fa-house"></i> Inicio<a><li>
+                    <li><a href="#productoss"><i class="fa-solid fa-bag-shopping"></i> Productos</a></li>
+                    <li><a href="#contacto">Contacto</a></li> 
+                    <li><a href="#opiniones"><i class="fa-solid fa-pen-to-square"></i> Reseñas</a></li>  
                 </ul>
             </nav>
         </div>
@@ -51,78 +49,21 @@
     </Header>
 
     <main>
+        <!--Productos-->
 
-        <section id="productos">
-            <h2 class="textovioleta"><i class="fa-solid fa-bag-shopping"></i> Productos</h2>
-
-            <div id="contenedorProductos">
-                <div class="divProductos">
-                    <img src="img/almohada 2.jpg" alt=" almohada" width="300" height="200">
-                    <h3>Almohadas con mensajes</h3>
-                    <span>$15.000</span>
-                </div>
-                <div class="divProductos">
-                    <img src="img/bolso.jpg" alt=" bolso" width="300" height="200">
-                    <h3>Bolsas con Logo</h3>
-                    <span>$8.000</span>
-                </div>
-                <div class="divProductos">
-                    <img src="img/gorras.avif" alt=" gorras" width="300" height="200">
-                    <h3>Gorras con nombres </h3>
-                    <span>$12.000</span>
-                </div>
-                <div class="divProductos">
-                    <img src="img/cartuchera.webp" alt=" cartuchera" width="300" height="200">
-                    <h3>Cartucheras con personajes</h3>
-                    <span>$8.000</span>
-                </div>
-                <div class="divProductos">
-                    <img src="img/puzzle-de-madera-96-piezas-250x360-mm.jpg" alt=" puzzle" width="300" height="200">
-                    <h3>Rompecabezas de Madera</h3>
-                    <span>$15.000</span>
-                </div>
-                <div class="divProductos">
-                    <img src="img/taza mickey.jpg" alt=" almohada" width="300" height="200">
-                    <h3>Tazas enamorados</h3>
-                    <span>$10.000</span>
-                </div>
-                <div class="divProductos">
-                    <img src="img/TAZAS-Y-TARROS-SUBLIMABLES-2-1536x1260.jpg" alt=" tazas" width="300" height="200">
-                    <h3>Tazas</h3>
-                    <span>$12.000</span>
-                </div>
-                <div class="divProductos">
-                    <img src="img/Remera-sublimar-niños.jpg" alt=" remera" width="300" height="200">
-                    <h3>Remera con fotos</h3>
-                    <span>$15.000</span>
-                </div>
-                <div class="divProductos">
-                    <img src="img/puzzle-de-madera-corazon-170x170x317mm-23-piezas-a4-4745 (1).jpg"
-                        alt=" puzzle madera corazon" width="300" height="200">
-                    <h3>Rompecabezas de corazón</h3>
-                    <span>$14.000</span>
-                </div>
-                <div class="divProductos">
-                    <img src="img/cuadernos1.webp" alt="cuadernos1" width="300" height="200">
-                    <h3>Block de notas</h3>
-                    <span>$5.000</span>
-                </div>
-                <div class="divProductos">
-                    <img src="img/cuadernos.jpeg" alt=" cuadernos2" width="300" height="200">
-                    <h3>Libreta/ planificadores</h3>
-                    <span>$9.000</span>
-                </div>
+        <section class="secciones" id="productoss">
+        <h2 class="textovioleta"> <i class="fa-solid fa-bag-shopping"></i> Productos</h2>
+            <div class="productos">
             </div>
+        
+        <!--Carrito de compras-->
+            <section class="carritoCompras">
+            </section>
         </section>
 
+    <!--Formas de Pago y Contacto-->
 
         <section class="formas-de-pago-contacto">
-            <section id="carrito">
-                <h2 class="textovioleta"><i class="fa-solid fa-cart-shopping"></i> Carrito de Compras</h2>
-                <label for="Nombre">Total de productos: $</label>
-                <input type="number" name="productos" id="productos">
-            </section>
-
             <section id="pagos">
                 <div class="divPagos">
                     <h2 class="textovioleta"><i class="fa-solid fa-credit-card"></i> Formas de Pago</h2>
@@ -137,15 +78,16 @@
             <div>
                 <h2 class="textovioleta"> <i class="fa-solid fa-money-bill-wave"></i> Pago en Efectivo</h2>
                 <ol>
-                    <li> Completa el formulario con tus datos- Descagar formulario</li>
-                    <li> Realiza el pago en el Rapipago más cercano</li>
-                    <li> Enviar formulario y el Ticket de pago a nuestro mail</li>
+                    <li> Completa el formulario de contacto con tus datos.</li>
+                    <li> Realiza el pago en el Rapipago más cercano.</li>
+                    <li> Enviar formulario de Contacto y el Ticket de pago a nuestro mail</li>
+                    <li> E-mail: sublimacontodo.ar@gmail.com</li>
                 </ol>
             </div>
         </section>
 
         <section class="formas-de-pago-contacto">
-            <div class="divContacto">
+            <div class="divContacto" id="contacto">
                 <h2 class="textovioleta"> Contacto</h2>
 
                 <form class="formContacto" action="https://formspree.io/f/xeognynr" method="POST">
@@ -280,17 +222,18 @@
 
     </section>
 
+    <script src="scripts.js"></script>
+
 </body>
 
 <footer>
 
     <nav id="footerNav">
         <ul>
-            <li><a href="">Inicio</a></li>
-            <li><a href="">Nosotros</a></li>
-            <li><a href="">Productos</a></li>
-            <li><a href="">Contacto</a></li>
-            <li><a href=""> Reseñas</a></li>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#productoss">Productos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="#opiniones">Reseñas</a></li>
         </ul>
     </nav>
 
